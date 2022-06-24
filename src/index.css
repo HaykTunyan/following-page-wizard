@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #B1C9F9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  margin: 205px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+
+  
+}
+
+.react-datepicker-wrapper input {
+  height: 54px;
+  width: 402px;
+  border: 1px solid #D1D1D1;
+  border-radius: 36px;
+  padding: 12px 24px;
+}
+
+.react-datepicker-wrapper input:focus-visible {
+  border-color: #1E85FE;
+  border: 2px solid #1E85FE;
+}  
+
+.selector-input {
+  width: 402px;
+}
+
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
